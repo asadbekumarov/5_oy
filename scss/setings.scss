@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.gaming__section {
+  margin-top: 50px;
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .gaming__section__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .gaming1 {
+      text-align: center;
+      background-color: rgb(34, 0, 255);
+      width: 40%;
+      height: 500px;
+      border-radius: 15px;
+      .name1 {
+        padding-top: 20px;
+      }
+      .score1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .ball1 {
+        padding-top: 60px;
+      }
+      .btn1 {
+        margin-top: 130px;
+        padding: 10px 20px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: none;
+        font-size: 20px;
+      }
+      .btn1:active {
+        scale: 0.9;
+      }
+    }
+    .gaming2 {
+      text-align: center;
+      background-color: rgb(34, 0, 255);
+      width: 40%;
+      height: 500px;
+      border-radius: 15px;
+      .name2 {
+        padding-top: 20px;
+      }
+      .score2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .ball2 {
+        padding-top: 60px;
+      }
+      .btn2 {
+        margin-top: 130px;
+        padding: 10px 20px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: none;
+        font-size: 20px;
+      }
+      .btn2:active {
+        scale: 0.9;
+      }
+    }
+  }
+}
